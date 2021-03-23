@@ -6,8 +6,8 @@ class Welcomdm(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.Cog.listener()
-    async def on_member_join(self, member):
+    # @commands.Cog.listener()
+    # async def on_member_join(self, member):
         # await member.send("新規参加者にDMを送信することができるよ")
 
     # @commands.Cog.listener()
