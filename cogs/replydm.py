@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 import asyncio
 import re
-import config
+# import config
 
 
 class Replydm(commands.Cog):
@@ -22,8 +22,8 @@ class Replydm(commands.Cog):
                 await message.channel.send(f"メールを確認しました！")
                 await message.channel.send(f"チケットの購入状況を確認いたします。KAMINARI運営からのご連絡をお待ちください")
 
-                user_a = config.user_a
-                user_b = config.user_b
+                # user_a = config.user_a
+                # user_b = config.user_b
 
                 embed = discord.Embed()
                 embed.color = discord.Color.blue()
