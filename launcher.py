@@ -25,7 +25,7 @@ async def on_ready():
     print('--------')
     d_time = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
     text = f'BOTが起動しました。\n ボット名：{bot.user}\n 時刻：{d_time}!'
-    channel = bot.get_channel(821569402066436128)
+    channel = bot.get_channel(823932867201597472)
     # Memberjoin.setup(bot)
     await channel.send(text)
     await channel.send('start success')
