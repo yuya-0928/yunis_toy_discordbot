@@ -25,8 +25,8 @@ class Channelautodelete(commands.Cog):
         await message.channel.send(f"チャンネルを{ sec }秒後にメッセージを送信します")
         loop = asyncio.get_event_loop()
         future = loop.create_future()
-        do_delete = loop.call_later(sec, lambda: asyncio.ensure_future(await message.channel.send("実行テスト")))
-        do_delete
+        # do_delete = loop.call_later(sec, lambda: asyncio.ensure_future(await message.channel.send("実行テスト")))
+        # do_delete
         
         # await asyncio.sleep(sec)
         # await message.channel.send("実行テスト")
